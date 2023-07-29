@@ -245,7 +245,7 @@ section {
   border: none;
   font-family: 'Noticia Text', serif;
   padding-right: 115px;
-  font-size: 14px;
+  font-size: 0.85em;
 }
 
 .headline p {
