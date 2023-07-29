@@ -1,0 +1,63 @@
+@media (max-width:1185px) {
+
+  .new,
+  .topnew {
+    flex-basis: 100%;
+  }
+  .topnew:hover{
+    top: 0;
+  }
+  .top {
+    background: none;
+  }
+
+  .topnew {
+    height: auto;
+    display: block;
+    max-width: none;
+  }
+  .headline-pr {
+  margin: 6px;
+  }
+  .headline {
+    /* flex-direction: column; */
+    flex-basis: 22%;
+    height: 68px !important;
+  }
+
+  .head-img {
+    width: 19em;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+
+  .image {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+
+  .image,
+  .content {
+    padding: 0;
+  }
+
+  #burg {
+    display: inline-block;
+    color: aqua;
+    font-size: 50px;
+  }
+
+  .navlist {
+    flex-direction: row;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .footer {}
+}
