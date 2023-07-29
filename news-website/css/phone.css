@@ -14,7 +14,7 @@
   .topnew {
     height: auto;
     display: block;
-    max-width: none;
+    min-width: -webkit-fill-available;
   }
   .headline-pr {
   margin: 6px;
@@ -29,10 +29,15 @@
     width: 19em;
   }
 
-  .footer {
-    display: grid;
-    grid-template-rows: auto auto;
+  .footer div{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: space-between;
   }
+  .footer{
+  overflow: hidden;
+  }
+
 
   .image {
     width: 80%;
@@ -51,13 +56,25 @@
     font-size: 50px;
   }
 
-  .navlist {
-    flex-direction: row;
+  .navlist, .left ul {
+    display: block;
   }
 
-  .left {
-    display: none;
+  .left ul li:target {
+  background-color: rgba(0, 0, 0, 0.39);
+    }
+  .skill{
+    width: 100%;
   }
-
-  .footer {}
+  .close.md.hydrated {
+    left: 95%;
 }
+  .skill-bar{
+    flex-wrap: nowrap;
+    width: 16em;
+    height: 324px;
+  }
+  .copyright{
+    font-size: 0.75em;
+  }
+  }
